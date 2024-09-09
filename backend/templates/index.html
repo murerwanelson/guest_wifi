@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wi-Fi Credentials to PDF</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate Wi-Fi Credentials PDF</h1>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <label for="file">Upload Wi-Fi Doc (.docx)</label>
+            <input type="file" id="file" name="file" accept=".docx" required>
+            
+            <button type="submit">Generate PDF</button>
+        </form>
+    </div>
+</body>
+</html>
